@@ -1,5 +1,15 @@
 package minDepthBinaryTree;
 
+
+class TreeNode{
+	TreeNode left;
+	TreeNode right;
+	int val;
+	TreeNode(int x){
+		val=x;
+	}
+}
+
 public class Solution {
 	public int minDepth(TreeNode root) {
         if(root==null){
